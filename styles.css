@@ -147,3 +147,16 @@ main section:nth-child(3) {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 524px){
+    section ul {
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    section ul{
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
