@@ -148,6 +148,8 @@ main section:nth-child(3) {
     }
 }
 
+/* Responsive */
+
 @media screen and (max-width: 524px){
     section ul {
         gap: 8px;
